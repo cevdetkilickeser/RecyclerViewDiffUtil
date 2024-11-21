@@ -87,26 +87,26 @@ sağlanır. Bu işlem, RecyclerView'ın veriyi güncellemesini ve animasyonları
 <pre>
   // Sayfa açıldığında adapter'daki boş liste yerine, activity içerisinde oluşturulan userList eklendi.
   
-2024-11-21 12:03:59.879 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 25
-2024-11-21 12:03:59.881 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
-2024-11-21 12:03:59.883 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Mehmet, Yaş: 20
-2024-11-21 12:10:55.815 18906-18906 Log of RecyclerView       D  Reset clicked.
+2024-11-21 12:03:59.879  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 25
+2024-11-21 12:03:59.881  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
+2024-11-21 12:03:59.883  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Mehmet, Yaş: 20
+2024-11-21 12:10:55.815  Log of RecyclerView       D  Reset clicked.
   
   // Reset butonu ilk oluşturulan userList'i, adapter'ın updateList fonksiyonuna parametre olarak verir. 
   
-2024-11-21 12:10:55.828 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 25
-2024-11-21 12:10:55.828 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
-2024-11-21 12:10:55.829 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Mehmet, Yaş: 20
+2024-11-21 12:10:55.828  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 25
+2024-11-21 12:10:55.828  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
+2024-11-21 12:10:55.829  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Mehmet, Yaş: 20
 
   //Listede hiç değişiklik yok ama tüm item'lar yeniden çizildi.
   
-2024-11-21 12:29:25.526 18906-18906 Log of RecyclerView       D  Update clicked.
+2024-11-21 12:29:25.526  Log of RecyclerView       D  Update clicked.
   
   // Update butonu userList'e göre güncellenmiş olan newList'i adapter'ın updateList fonksiyonuna parametre olarak verir.
   
-2024-11-21 12:29:25.542 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 26
-2024-11-21 12:29:25.543 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
-2024-11-21 12:29:25.549 18906-18906 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Fatma, Yaş: 22
+2024-11-21 12:29:25.542  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ahmet, Yaş: 26
+2024-11-21 12:29:25.543  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Ayşe, Yaş: 30
+2024-11-21 12:29:25.549  Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> İsim: Fatma, Yaş: 22
 
   //Ayşe kullanıcısında değişiklik yok. Buna rağmen item çizildi.
 </pre>
