@@ -123,13 +123,15 @@ sağlanır. Bu işlem, RecyclerView'ın veriyi güncellemesini ve animasyonları
 2024-11-21 12:35:16.196 20130-20130 Log of RecyclerView       D  Reset clicked.
 2024-11-21 12:35:18.345 20130-20130 Log of RecyclerView       D  Reset clicked.
 
-  // Reset butonuna tıklandığında adapter'daki userList'in aynısını tekrar adapter'a verdiği için, DiffUtil fark bulamıyor ve itemlar yeniden çizilmiyor.
+  // Reset butonuna tıklandığında adapter'daki userList'in aynısını tekrar adapter'a verdiği için, 
+  //DiffUtil fark bulamıyor ve itemlar yeniden çizilmiyor.
   
 2024-11-21 12:35:22.134 20130-20130 Log of RecyclerView       D  Update clicked.
 2024-11-21 12:35:22.142 20130-20130 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> Ahmet
 2024-11-21 12:35:22.144 20130-20130 Log of RecyclerView       D  Yeniden Çizilen Kullanıcı -> Fatma
 
-  // Update butonunun gönderdiği newList içinde Ayşe kullanıcısında değişikilk olmadığı için bu veriyi barındıran item  yeniden çizilmiyor.
+  // Update butonunun gönderdiği newList içinde Ayşe kullanıcısında değişikilk olmadığı için, 
+  //bu veriyi barındıran item  yeniden çizilmiyor.
 </pre>
 
 ### notify metodları
