@@ -23,7 +23,7 @@ class UserAdapterNotifyDataChange : RecyclerView.Adapter<UserViewHolder>() {
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val user = userList[position]
         holder.bind(user)
-        Log.d("Log of RecyclerView", "Yeniden Çizilen Kullanıcı -> ${user.name}")
+        Log.d("Log of RecyclerView", "Yeniden Çizilen Kullanıcı -> İsim: ${user.name}, Yaş: ${user.age}")
     }
 
     override fun getItemCount(): Int = userList.size

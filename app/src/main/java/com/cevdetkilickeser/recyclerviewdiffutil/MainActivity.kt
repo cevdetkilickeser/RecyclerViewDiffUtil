@@ -30,8 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val updatedList = listOf(
             User(1, "Ahmet", 26),
-            User(2, "Ayşe", 32),
-            User(3, "Mehmet", 20),
+            User(2, "Ayşe", 30),
             User(4, "Fatma", 22)
         )
 

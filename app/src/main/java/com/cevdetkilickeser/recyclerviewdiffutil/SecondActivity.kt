@@ -1,6 +1,7 @@
 package com.cevdetkilickeser.recyclerviewdiffutil
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.cevdetkilickeser.recyclerviewdiffutil.databinding.ActivitySecondBinding
 
@@ -28,16 +29,17 @@ class SecondActivity : AppCompatActivity() {
 
         val updatedList = listOf(
             User(1, "Ahmet", 26),
-            User(2, "Ayşe", 32),
-            User(3, "Mehmet", 20),
+            User(2, "Ayşe", 30),
             User(4, "Fatma", 22)
         )
 
         binding.buttonReset.setOnClickListener {
+            Log.d("Log of RecyclerView", "Reset clicked.")
             userAdapterNotifyDataChange.updateList(userList)
         }
 
         binding.buttonUpdate.setOnClickListener {
+            Log.d("Log of RecyclerView", "Update clicked.")
             userAdapterNotifyDataChange.updateList(updatedList)
         }
     }
