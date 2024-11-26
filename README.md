@@ -111,7 +111,7 @@ sağlanır. Bu işlem, RecyclerView'ın veriyi güncellemesini ve animasyonları
   //Ayşe kullanıcısında değişiklik yok. Buna rağmen item çizildi.
 </pre>
 
-**notifyDataSetChanged**
+**DiffUtil**
   
 <pre>
   // Sayfa açıldığında adapter'daki boş liste yerine, activity içerisinde oluşturulan userList eklendi.
